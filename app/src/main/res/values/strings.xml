@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">NetflixFix</string>
     <string name="xposeddescription">Fake Device Name to Mi10"</string>
+    
+    <!-- Settings Activity -->
+    <string name="settings_title">NetflixFix 設定</string>
+    <string name="device_model_label">デバイスモデル (Build.MODEL)</string>
+    <string name="device_model_hint">例: Mi 10</string>
+    <string name="device_product_label">デバイスプロダクト (Build.PRODUCT)</string>
+    <string name="device_product_hint">例: umi</string>
+    <string name="save_button">保存</string>
+    <string name="reset_button">リセット</string>
+    <string name="settings_description">これらの設定はNetflixアプリに適用されます。\n変更後はNetflixアプリを再起動してください。</string>
+    
+    <!-- Messages -->
+    <string name="settings_saved">設定が保存されました</string>
+    <string name="settings_reset">設定をリセットしました</string>
+    <string name="error_empty_fields">すべてのフィールドを入力してください</string>
 
 </resources>
