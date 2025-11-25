@@ -1,20 +1,36 @@
 <resources>
     <string name="app_name">NetflixFix</string>
-    <string name="xposeddescription">Fake Device Name to Mi10"</string>
+    <string name="xposeddescription">Spoof device to Pixel 10 Pro XL</string>
     
     <!-- Settings Activity -->
-    <string name="settings_title">NetflixFix 設定</string>
-    <string name="device_model_label">デバイスモデル (Build.MODEL)</string>
-    <string name="device_model_hint">例: Mi 10</string>
-    <string name="device_product_label">デバイスプロダクト (Build.PRODUCT)</string>
-    <string name="device_product_hint">例: umi</string>
-    <string name="save_button">保存</string>
-    <string name="reset_button">リセット</string>
-    <string name="settings_description">これらの設定はNetflixアプリに適用されます。\n変更後はNetflixアプリを再起動してください。</string>
+    <string name="settings_title">NetflixFix Settings</string>
+    <string name="device_model_label">Device model (Build.MODEL)</string>
+    <string name="device_model_hint">e.g., Pixel 10 Pro XL</string>
+    <string name="device_product_label">Device product (Build.PRODUCT)</string>
+    <string name="device_product_hint">e.g., mustang</string>
+    <string name="device_brand_label">Brand (Build.BRAND)</string>
+    <string name="device_brand_hint">e.g., google</string>
+    <string name="device_manufacturer_label">Manufacturer (Build.MANUFACTURER)</string>
+    <string name="device_manufacturer_hint">e.g., Google</string>
+    <string name="device_device_label">Device code (Build.DEVICE)</string>
+    <string name="device_device_hint">e.g., mustang</string>
+    <string name="device_hardware_label">Hardware (Build.HARDWARE)</string>
+    <string name="device_hardware_hint">e.g., mustang</string>
+    <string name="device_fingerprint_label">Build fingerprint (Build.FINGERPRINT)</string>
+    <string name="device_fingerprint_hint">e.g., google/mustang/mustang:16/BD3A.251105.010.E1/14337626:user/release-keys</string>
+    <string name="device_build_id_label">Build ID (Build.ID)</string>
+    <string name="device_build_id_hint">e.g., BD3A.251105.010.E1</string>
+    <string name="device_type_label">Build type (Build.TYPE)</string>
+    <string name="device_type_hint">e.g., user</string>
+    <string name="device_tags_label">Build tags (Build.TAGS)</string>
+    <string name="device_tags_hint">e.g., release-keys</string>
+    <string name="save_button">Save</string>
+    <string name="reset_button">Reset</string>
+    <string name="settings_description">These props apply to Netflix. Restart Netflix after changes.</string>
     
     <!-- Messages -->
-    <string name="settings_saved">設定が保存されました</string>
-    <string name="settings_reset">設定をリセットしました</string>
-    <string name="error_empty_fields">すべてのフィールドを入力してください</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_reset">Settings reset to defaults</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
 
 </resources>
