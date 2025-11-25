@@ -15,12 +15,11 @@ import java.util.Map;
 import java.util.Set;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
-import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
-public class NetflixFix implements IXposedHookZygoteInit, IXposedHookLoadPackage {
+public class NetflixFix implements IXposedHookLoadPackage {
 
     private static final String TAG = "NetflixFix";
     private static final String PREFS_NAME = "NetflixFixPrefs";
@@ -65,11 +64,6 @@ public class NetflixFix implements IXposedHookZygoteInit, IXposedHookLoadPackage
         PIXEL_PROPS.put("MODEL", DEFAULT_MODEL);
         PIXEL_PROPS.put("ID", DEFAULT_BUILD_ID);
         PIXEL_PROPS.put("FINGERPRINT", DEFAULT_FINGERPRINT);
-    }
-
-    @Override
-    public void initZygote(StartupParam startupParam) throws Throwable {
-        // no-op
     }
 
     @Override
