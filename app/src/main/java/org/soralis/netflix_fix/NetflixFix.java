@@ -76,6 +76,8 @@ public class NetflixFix implements IXposedHookZygoteInit, IXposedHookLoadPackage
     public void handleLoadPackage(final LoadPackageParam lpparam) throws Throwable {
         final String packageName = lpparam.packageName;
 
+        XposedBridge.log("[" + TAG + "] handleLoadPackage: " + packageName);
+
         if (packageName == null || !TARGET_PACKAGES.contains(packageName)) {
             return;
         }
